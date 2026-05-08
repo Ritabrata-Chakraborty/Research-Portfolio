@@ -32,6 +32,14 @@ export default function App() {
   const allTags = ["All", "Simulation", "Vision", "Robotics", "Gen-AI", "CAD/FEM"];
   const filteredProjects = selectedTag === 'All' ? projects : projects.filter(p => p.tags?.includes(selectedTag));
 
+  const [pubFilter, setPubFilter] = useState('All');
+  const pubFilters = ["All", "Journal", "Conference", "Patent", "Peer Review"];
+  const filteredPubs = pubFilter === 'All'
+    ? publications
+    : pubFilter === 'Peer Review'
+      ? publications.filter(p => p.role === 'Peer Reviewer')
+      : publications.filter(p => p.type === pubFilter);
+
   const getColumnsClass = (count: number) => {
     if (count === 1) return 'columns-1 max-w-[300px] mx-auto';
     if (count === 2) return 'columns-1 sm:columns-2 max-w-[600px] mx-auto';
@@ -341,8 +349,23 @@ export default function App() {
 
       {/* Publications */}
       <Section id="publications" title="Publications">
+        <div className="flex flex-wrap items-center gap-2 mb-6 justify-start">
+          {pubFilters.map((f) => (
+            <button
+              key={f}
+              onClick={() => setPubFilter(f)}
+              className={`px-3.5 py-1.5 rounded-lg theme-body transition-all font-medium ${
+                pubFilter === f
+                  ? 'bg-blue-600 text-white shadow-md border border-blue-600'
+                  : 'bg-white/80 text-slate-600 border border-slate-200 hover:border-blue-300 hover:text-blue-600 hover:bg-white shadow-sm'
+              }`}
+            >
+              {f}
+            </button>
+          ))}
+        </div>
         <div className="grid grid-cols-1 gap-6">
-          {publications.map((pub, idx) => (
+          {filteredPubs.map((pub, idx) => (
             <motion.div 
               key={idx}
               initial={{ opacity: 0, y: 20 }}
