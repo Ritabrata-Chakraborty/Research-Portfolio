@@ -56,7 +56,7 @@ Output goes to `dist/`. Push to `master` and GitHub Pages serves it automaticall
 
 ## Contact
 
-- Email: ritabratabits@gmail.com
+- Email: ritabratabits[at]gmail[dot]com
 - GitHub: https://github.com/Ritabrata-Chakraborty
 - LinkedIn: https://www.linkedin.com/in/ritabrata-chakraborty-a63268251/
 - Google Scholar: https://scholar.google.com/citations?user=JikCewwAAAAJ
