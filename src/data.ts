@@ -43,14 +43,15 @@ export const portfolioData = {
   ],
   publications: [
     {
-      title: "GS-SDE: 3D Gaussian Splatting-based Adaptive Scene Modeling in Semi-Dynamic Environments.",
+      title: "3D Gaussian Splatting.",
       authors: "Anonymous et al.",
       venue: "IEEE Transactions on Automation Science and Engineering (T-ASE)",
       shortVenue: "IEEE-TASE",
       status: "Under Review at IEEE T-ASE 2026",
       year: "2026",
       type: "Journal",
-      image: "proj-gnss-denied.png",
+      role: "Peer Reviewer",
+      image: "proj-gs.png",
       links: {}
     },
     {

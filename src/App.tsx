@@ -358,10 +358,15 @@ export default function App() {
                       {pub.shortVenue}
                     </span>
                     <span className="text-slate-500 font-mono bg-white px-2.5 py-1 rounded-lg border border-slate-100">{pub.year}</span>
+                    {pub.role && (
+                      <span className="px-2.5 py-1 rounded-lg bg-amber-50 text-amber-700 border border-amber-200 shadow-sm">
+                        {pub.role}
+                      </span>
+                    )}
                   </div>
-                  
+
                   <h3 className="theme-card font-medium text-slate-900 mb-2 leading-snug">"{pub.title}"</h3>
-                  <p className="text-slate-600 theme-body mb-2">By: <span className="font-medium text-slate-800">{pub.authors}</span></p>
+                  <p className="text-slate-600 theme-body mb-2">{pub.role ? 'Authors:' : 'By:'} <span className="font-medium text-slate-800">{pub.authors}</span></p>
 
                   <div className="text-slate-500 theme-body mb-4 flex flex-col gap-0.5">
                     <i>{pub.status}</i>
