@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #f0f7fd; /* Very light blue tint */
+  --color-accent: #2563eb; /* Blue tone for tech/robotics */
+  --glass-surface: rgba(255, 255, 255, 0.7);
+  --glass-border: rgba(59, 130, 246, 0.15);
+
+  --font-sans: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-serif: "Georgia", serif;
+  --font-mono: "JetBrains Mono", "Courier New", monospace;
+}
+
+:root {
+  --theme-font: 'Inter', sans-serif;
+  --theme-size-hero: 2rem;
+  --theme-size-section: 1.35rem;
+  --theme-size-card: 1.1rem;
+  --theme-size-body: 1rem;
+  --theme-size-meta: 0.85rem;
+}
+
+body {
+  background-color: var(--color-bg-base);
+  color: #1e293b;
+  font-family: var(--theme-font);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+.theme-hero    { font-size: var(--theme-size-hero); }
+.theme-section { font-size: var(--theme-size-section); }
+.theme-card    { font-size: var(--theme-size-card); }
+.theme-body    { font-size: var(--theme-size-body); }
+.theme-meta    { font-size: var(--theme-size-meta); }
+
+/* Atmospheric background gradients */
+.bg-atmosphere {
+  background:
+    radial-gradient(circle at 15% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, rgba(14, 165, 233, 0.05) 0%, transparent 50%);
+  z-index: -1;
+}
+
+/* Glass panel */
+.glass-panel {
+  background: var(--glass-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #2563eb, #0284c7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
