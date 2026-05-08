@@ -189,8 +189,8 @@ export const portfolioData = {
       ],
       image: "org-kul.jpg",
       projects: [
-        { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" },
-        { title: "Conditional Latent Diffusion-GAN for CWT Generation and LiteFormer-based Classification" }
+        { title: "Physics-Informed Latent Augmentation for Bearing Fault Diagnosis" },
+        { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" }
       ],
       techStack: "PyTorch, Python"
     },
