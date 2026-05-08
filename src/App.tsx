@@ -320,15 +320,17 @@ export default function App() {
                   <div className="space-y-6">
                     {exp.projects.map((proj, pIdx) => (
                       <div key={pIdx}>
-                         <h4 className="font-medium text-slate-800 mb-2.5 theme-body leading-snug">{proj.title}</h4>
-                         <ul className="space-y-2 w-full">
-                           {proj.bullets.map((bullet, bIdx) => (
-                             <li key={bIdx} className="text-slate-600 theme-body leading-relaxed flex items-start gap-2.5 w-full">
-                               <span className="text-blue-500 mt-0.5 text-xs font-bold font-mono shrink-0">▹</span>
-                               <span className="flex-1 w-0 min-w-0">{bullet}</span>
-                             </li>
-                           ))}
-                         </ul>
+                        <h4 className="font-medium text-slate-800 theme-body leading-snug">{proj.title}</h4>
+                        {proj.bullets && proj.bullets.length > 0 && (
+                          <ul className="space-y-2 w-full mt-2.5">
+                            {proj.bullets.map((bullet, bIdx) => (
+                              <li key={bIdx} className="text-slate-600 theme-body leading-relaxed flex items-start gap-2.5 w-full">
+                                <span className="text-blue-500 mt-0.5 text-xs font-bold font-mono shrink-0">▹</span>
+                                <span className="flex-1 w-0 min-w-0">{bullet}</span>
+                              </li>
+                            ))}
+                          </ul>
+                        )}
                       </div>
                     ))}
                   </div>
