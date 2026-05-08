@@ -33,10 +33,7 @@ export const portfolioData = {
         "President & Secretary — Mechanical Engineering Association (MEA)",
         "President & Tech Fest Coordinator — ISHRAE BITS Pilani Chapter",
         "Project Manager — Tinkerer's Lab",
-        "Treasurer — Bengali Cultural Association",
-        "Teaching Assistant — Foundations of Data Science",
-        "Teaching Assistant — Advanced Mechanics of Solids",
-        "Teaching Assistant — Materials Science"
+        "Teaching Assistant — Foundations of Data Science, Advanced Mechanics of Solids, Materials Science",
       ],
       image: "org-bitsp.png"
     }
@@ -161,13 +158,7 @@ export const portfolioData = {
       ],
       image: "org-uber.jpg",
       projects: [
-        {
-          title: "Automated Video Annotation with Deep Learning",
-          bullets: [
-            "Augmented uLabel with DL object tracking for automated RGB/IR video annotation",
-            "Deployed XGBoost anomaly detection in human-in-the-loop validation for frame-level accuracy"
-          ]
-        }
+        { title: "Automated Video Annotation with Deep Learning" }
       ],
       techStack: "PyTorch, Python, C++"
     },
@@ -182,20 +173,8 @@ export const portfolioData = {
       ],
       image: "org-nus.png",
       projects: [
-        {
-          title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding",
-          bullets: [
-            "Enhanced CogniPlan with cross-attention between frontier and node embeddings",
-            "Integrated ViNT for semantic context capture and adaptive exploration"
-          ]
-        },
-        {
-          title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction",
-          bullets: [
-            "Architected CogniPlan with WGAN-based inpainting and graph attention for uncertainty-aware navigation",
-            "Achieved 17.7% shorter paths and 3.9% better efficiency over SOTA across 100+ maps with <0.35M parameters"
-          ]
-        }
+        { title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding" },
+        { title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction" }
       ],
       techStack: "ROS Noetic (with Gazebo, Rviz), PyTorch, Python"
     },
@@ -210,20 +189,8 @@ export const portfolioData = {
       ],
       image: "org-kul.jpg",
       projects: [
-        {
-          title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation",
-          bullets: [
-            "Built ACWGAN-GP with TCN discriminator for minority fault augmentation, reaching ~100% accuracy",
-            "Evaluated synthetic data via FFT spectra comparison using PCC, Cosine Similarity, MMD, and KL Div"
-          ]
-        },
-        {
-          title: "Conditional Latent Diffusion-GAN for CWT Generation and LiteFormer-based Classification",
-          bullets: [
-            "Developed LDDGAN with Supervised Contrastive Loss for latent class separation (99.9% AE accuracy, 16× compression)",
-            "Designed LiteFormer variants with CWC, Haar DWT, WDCNN-BiLSTM, achieving 99.18% fault classification accuracy"
-          ]
-        }
+        { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" },
+        { title: "Conditional Latent Diffusion-GAN for CWT Generation and LiteFormer-based Classification" }
       ],
       techStack: "PyTorch, Python"
     },
@@ -238,20 +205,8 @@ export const portfolioData = {
       ],
       image: "org-ceeri.png",
       projects: [
-        {
-          title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation",
-          bullets: [
-            "Built multi-critic off-policy RL controller for continuous pitch–yaw–roll drone navigation in indoor environments",
-            "Designed hybrid reward with artificial potential fields and precision replay for improved navigation"
-          ]
-        },
-        {
-          title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring",
-          bullets: [
-            "Developed UAV orchard monitoring with YOLOv11 (Box mAP50: 95.5%, Mask mAP50: 96.5%)",
-            "Programmed B-spline trajectory and custom yaw-roll controller to minimize wind drift"
-          ]
-        }
+        { title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation" },
+        { title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring" }
       ],
       techStack: "PyTorch, Python, ROS Noetic, AirSim, NVIDIA Jetson Orin NX"
     }
