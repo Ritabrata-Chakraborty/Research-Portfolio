@@ -77,7 +77,7 @@ export const portfolioData = {
       type: "Journal",
       image: "proj-rl.gif",
       links: {
-        paper: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view",
+        paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link",
         code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control"
       }
     },
