@@ -281,8 +281,7 @@ export const portfolioData = {
       organizer: "European Space Foundation",
       year: "2023",
       links: {
-        report: "https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link",
-        project: "https://roverchallenge.eu/"
+        report: "https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link"
       }
     }
   ],
