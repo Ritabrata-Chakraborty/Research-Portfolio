@@ -401,7 +401,7 @@ export default function App() {
                         <span key={i}>
                           {i > 0 && ', '}
                           {hasAnd && 'and '}
-                          <span className={isMe ? 'text-slate-900 font-semibold' : 'text-slate-400'}>
+                          <span className={isMe ? 'text-slate-900 font-semibold' : 'text-slate-600'}>
                             {name}
                           </span>
                         </span>
