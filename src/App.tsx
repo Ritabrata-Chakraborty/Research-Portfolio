@@ -397,7 +397,8 @@ export default function App() {
                       const hasAnd = part.startsWith('and ');
                       const name = hasAnd ? part.slice(4) : part;
                       const normalizedName = name.replace(/[\s.]/g, '').toLowerCase();
-                      const isMe = normalizedName === 'R.Chakraborty'.replace(/[\s.]/g, '').toLowerCase();
+                      const normalizedSelf = 'R. Chakraborty'.replace(/[\s.]/g, '').toLowerCase();
+                      const isMe = normalizedName === normalizedSelf;
                       return (
                         <span key={i}>
                           {i > 0 && ', '}
