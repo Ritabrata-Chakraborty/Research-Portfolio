@@ -93,7 +93,7 @@ export const portfolioData = {
     // },
     {
       title: "A Physics-Informed Comparative Study of Continuous and Discrete Latent Generative Augmentation for Bearing Fault Diagnosis Under Extreme Data Scarcity.",
-      authors: "R. Chakraborty and P. Kundu",
+      authors: "R. Chakraborty, and P. Kundu",
       venue: "IEEE Transactions on Industrial Informatics (T-II)",
       shortVenue: "IEEE-TII",
       status: "In Preparation for IEEE T-II 2026",
@@ -133,7 +133,7 @@ export const portfolioData = {
     },
     {
       title: "Path Planning of Low-Altitude UAV for Tree Canopy Tracking and Orchard Monitoring.",
-      authors: "K. Kishore and R. Chakraborty",
+      authors: "K. Kishore, and R. Chakraborty",
       venue: "-",
       shortVenue: "Patent",
       status: "Filed as Intellectual Property (IP)",

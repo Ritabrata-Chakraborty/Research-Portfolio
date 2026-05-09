@@ -396,7 +396,8 @@ export default function App() {
                     {pub.authors.split(', ').map((part, i) => {
                       const hasAnd = part.startsWith('and ');
                       const name = hasAnd ? part.slice(4) : part;
-                      const isMe = name === 'R. Chakraborty';
+                      const normalizedName = name.replace(/[\s.]/g, '').toLowerCase();
+                      const isMe = normalizedName === 'R.Chakraborty'.replace(/[\s.]/g, '').toLowerCase();
                       return (
                         <span key={i}>
                           {i > 0 && ', '}
