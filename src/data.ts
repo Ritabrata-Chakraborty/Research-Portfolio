@@ -19,7 +19,7 @@ export const portfolioData = {
       gpa: "-/4.0",
       duration: "Aug '26 – Present",
       achievements: [],
-      image: "org-upenn.png"
+      image: "org-upenn.webp"
     },
     {
       institution: "Birla Institute of Technology and Science, Pilani (BITS Pilani)",
@@ -35,7 +35,7 @@ export const portfolioData = {
         "Project Manager — Tinkerer's Lab",
         "Teaching Assistant — Foundations of Data Science, Advanced Mechanics of Solids, Materials Science",
       ],
-      image: "org-bitsp.png"
+      image: "org-bitsp.webp"
     }
   ],
   publications: [
@@ -48,7 +48,7 @@ export const portfolioData = {
       year: "2026",
       type: "Journal",
       role: "Peer Reviewer",
-      image: "proj-gs.png",
+      image: "proj-gs.webp",
       links: {}
     },
     {
@@ -59,7 +59,7 @@ export const portfolioData = {
       status: "In Preparation for IEEE T-RO 2026",
       year: "2026",
       type: "Journal",
-      image: "proj-gnss-denied.png",
+      image: "proj-gnss-denied.webp",
       links: {
           paper: "https://drive.google.com/file/d/1y3PC6fdyNwgKXBCm4wfoiL4wZD5VuxfH/view?usp=drive_link"
       }
@@ -72,7 +72,7 @@ export const portfolioData = {
       status: "Under Review at IEEE T-AI 2026",
       year: "2026",
       type: "Journal",
-      image: "proj-rl.gif",
+      image: "proj-rl.webp",
       links: {
         paper: "https://drive.google.com/file/d/1ZbXVK82uE7esc_MJddMygPwYf34Kf8oD/view?usp=drive_link",
         code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control"
@@ -86,7 +86,7 @@ export const portfolioData = {
     //   status: "In Ppreparation for CVIP 2026",
     //   year: "2026",
     //   type: "Conference",
-    //   image: "pub-hockey3d.gif",
+    //   image: "pub-hockey3d.webp",
     //   links: {
     //     paper: "https://drive.google.com/file/d/1XSeU50fM_yJUn0u2wcNOM2itZovqAA2V/view?usp=drive_link"
     //   }
@@ -99,7 +99,7 @@ export const portfolioData = {
       status: "In Preparation for IEEE T-II 2026",
       year: "2026",
       type: "Journal",
-      image: "proj-clddgan.png",
+      image: "proj-clddgan.webp",
       links: {}
     },
     {
@@ -110,7 +110,7 @@ export const portfolioData = {
       status: "Accepted at CoRL 2025",
       year: "2025",
       type: "Conference",
-      image: "proj-cogniplan.png",
+      image: "proj-cogniplan.webp",
       links: {
         paper: "https://www.arxiv.org/abs/2508.03027",
         code: "https://github.com/marmotlab/CogniPlan",
@@ -125,7 +125,7 @@ export const portfolioData = {
       status: "Published in IET Conference Proceedings",
       year: "2025",
       type: "Conference",
-      image: "proj-efficient-gan.png",
+      image: "proj-efficient-gan.webp",
       links: {
         paper: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364",
         code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery"
@@ -139,7 +139,7 @@ export const portfolioData = {
       status: "Filed as Intellectual Property (IP)",
       year: "2025",
       type: "Patent",
-      image: "proj-uav-orchard.png",
+      image: "proj-uav-orchard.webp",
       links: {
         paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=sharing"
       }
@@ -156,7 +156,7 @@ export const portfolioData = {
         { name: "Mr. Siddarth Malreddy, Tech Lead Manager", link: "https://in.linkedin.com/in/malreddysid" },
         { name: "Mr. Ishan Nigam, Senior ML Engineer", link: "https://www.linkedin.com/in/ishannigam/" },
       ],
-      image: "org-uber.jpg",
+      image: "org-uber.webp",
       projects: [
         { title: "Automated Video Annotation with Deep Learning" }
       ],
@@ -171,7 +171,7 @@ export const portfolioData = {
       supervisors: [
         { name: "Dr. Guillaume Sartoretti, Assistant Professor, MARMoT Lab", link: "https://www.marmotlab.org/" },
       ],
-      image: "org-nus.png",
+      image: "org-nus.webp",
       projects: [
         { title: "Vision-Attention-Driven Autonomous Navigation with Semantic Understanding" },
         { title: "Uncertainty-Guided Path Planning via Conditional Layout Prediction" }
@@ -187,7 +187,7 @@ export const portfolioData = {
       supervisors: [
         { name: "Dr. Pradeep Kundu, Assistant Professor", link: "https://www.kuleuven.be/wieiswie/en/person/00155770" },
       ],
-      image: "org-kul.jpg",
+      image: "org-kul.webp",
       projects: [
         { title: "Physics-Informed Latent Augmentation for Bearing Fault Diagnosis" },
         { title: "Auxiliary Classifier WGAN-GP for Time-Series Sensor Data Generation" }
@@ -203,7 +203,7 @@ export const portfolioData = {
       supervisors: [
         { name: "Dr. Kaushal Kishore, Principal Scientist", link: "https://www.ceeri.res.in/profiles/kaushal-kishore/" },
       ],
-      image: "org-ceeri.png",
+      image: "org-ceeri.webp",
       projects: [
         { title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation" },
         { title: "Monocular Vision-Based UAV Navigation for Orchard Monitoring" }
@@ -288,67 +288,67 @@ export const portfolioData = {
   projects: [
     {
       title: "Multi-Critic Off-Policy RL for Autonomous Indoor Drone Navigation",
-      image: "proj-rl.gif",
+      image: "proj-rl.webp",
       links: { paper: "https://drive.google.com/file/d/1Uimegpx43p9dfY7lvgPU_LR3ERb3-YJP/view", code: "https://github.com/Ritabrata-Chakraborty/Quadcopter-RL-Off-Policy-Velocity-Control" },
       tags: ["Robotics"]
     },
     {
       title: "3D Lunar Surface Modeling Using Chandrayaan-2 TMC DEM Data",
-      image: "proj-lunar.png",
+      image: "proj-lunar.webp",
       links: { presentation: "https://drive.google.com/file/d/1QHn3U-iJFZyzYMW3TUlMg7MbXFU9p19_/view" },
       tags: ["Simulation"]
     },
     {
       title: "Large-Scale DRL Exploration with Tunable Adaptive Exploration-Exploitation",
-      image: "proj-drl-explore.jpg",
+      image: "proj-drl-explore.webp",
       links: { paper: "https://arxiv.org/abs/2403.10833", code: "https://github.com/Ritabrata-Chakraborty/Large-Scale-DRL-Exploration-with-Tunable-Adaptive-Exploration-Exploitation" },
       tags: ["Robotics"]
     },
     {
       title: "Conditional Latent Diffusion-GAN for Synthetic CWT Generation and LiteFormer-based Fault Classification in Rotating Machinery",
-      image: "proj-clddgan.png",
+      image: "proj-clddgan.webp",
       links: {},
       tags: ["Gen-AI"]
     },
     {
       title: "An Efficient Approach for Synthetic Data Generation and Fault Diagnosis for Rotating Machinery",
-      image: "proj-efficient-gan.png",
+      image: "proj-efficient-gan.webp",
       links: { paper: "https://digital-library.theiet.org/doi/10.1049/icp.2025.2364", code: "https://github.com/Ritabrata-Chakraborty/An-Efficient-Approach-for-Synthetic-Data-Generation-and-Fault-Diagnosis-for-Rotating-Machinery" },
       tags: ["Gen-AI"]
     },
     {
       title: "CogniPlan: Uncertainty-Guided Path Planning with Conditional Generative Layout Prediction",
-      image: "proj-cogniplan.png",
+      image: "proj-cogniplan.webp",
       links: { paper: "https://www.arxiv.org/abs/2508.03027", project: "https://yizhuo-wang.com/cogniplan/", code: "https://github.com/marmotlab/CogniPlan" },
       tags: ["Robotics"]
     },
     {
       title: "MathWorks Global Student Drone Challenge 2025",
-      image: "proj-drone-challenge.jpg",
+      image: "proj-drone-challenge.webp",
       links: {},
       tags: ["Robotics", "Vision"]
     },
     {
       title: "Path Planning of Low-Altitude UAV for Tree Canopy Tracking and Orchard Monitoring",
-      image: "proj-uav-orchard.png",
+      image: "proj-uav-orchard.webp",
       links: { paper: "https://drive.google.com/file/d/1TZ-1WKuYXeAOZaP7R5TnSufCdyz3sn4a/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/Monocular-Vision-Based-UAV-Navigation-for-Orchard-Monitoring" },
       tags: ["Robotics", "Vision"]
     },
     {
       title: "Computer Vision Pipeline for 3D Trajectory Reconstruction and Shot Classification",
-      image: "proj-hockey3d.png",
+      image: "proj-hockey3d.webp",
       links: { report: "https://drive.google.com/file/d/1h7X9fIiih37ivgERVR-wbWsDEil0qvpI/view?usp=drive_link", code: "https://github.com/Ritabrata-Chakraborty/3D-Localization-of-a-Sports-Ball-from-a-Single-Monocular-Camera"},
       tags: ["Vision", "Simulation"]
     },
     {
       title: "Physics-Based Launcher Mechanical Design and FEM Analysis",
-      image: "proj-hockey-launcher.png",
+      image: "proj-hockey-launcher.webp",
       links: { report: "https://drive.google.com/file/d/1IuOxvcOJYzLelGn2VaZ4dIr59AIDP1BI/view?usp=drive_link"},
       tags: ["CAD/FEM"]
     },
     {
       title: "European Rover Challenge (ERC) Remote 2023",
-      image: "proj-exomy.jpg",
+      image: "proj-exomy.webp",
       links: { report: "https://drive.google.com/file/d/1qAeYAupdwq-eb-d-lgASr4xD_Kj0AXmk/view?usp=drive_link" },
       tags: ["Robotics", "Vision", "Simulation"]
     }

@@ -87,7 +87,7 @@ export default function App() {
             >
               <div className="flex flex-col items-center text-center gap-4">
                 <div className="w-32 h-32 md:w-40 md:h-40 rounded-2xl overflow-hidden glass-panel border p-1 shadow-sm bg-white mx-auto">
-                  <img src="avatar.jpg" alt={personalInfo.name} className="w-full h-full object-cover rounded-xl" />
+                  <img src="avatar.webp" alt={personalInfo.name} className="w-full h-full object-cover rounded-xl" />
                 </div>
                 <div>
                   <h1 className="font-medium mb-2 tracking-wide text-slate-900 uppercase whitespace-nowrap overflow-visible" style={{ fontSize: '1.25rem' }}>
@@ -197,7 +197,7 @@ export default function App() {
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {edu.image && (
                       <div className="w-[5.5rem] h-[5.5rem] md:w-[6.5rem] md:h-[6.5rem] rounded-xl overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0">
-                         <img src={edu.image} alt={edu.institution} className="w-full h-full object-cover rounded-lg" />
+                         <img src={edu.image} alt={edu.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                       </div>
                     )}
                     <div className="flex flex-col flex-1">
@@ -274,7 +274,7 @@ export default function App() {
                   <div className="flex flex-row gap-4 items-start mb-2">
                     {exp.image && (
                       <div className="w-12 h-12 md:w-16 md:h-16 aspect-square rounded-xl overflow-hidden border border-slate-200 p-0.5 shadow-sm bg-white shrink-0 mt-1">
-                         <img src={exp.image} alt={exp.institution} className="w-full h-full object-cover rounded-lg" />
+                         <img src={exp.image} alt={exp.institution} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                       </div>
                     )}
                     <div className="flex flex-col flex-1">
@@ -439,7 +439,7 @@ export default function App() {
 
                 {pub.image && (
                   <div className="w-full md:w-56 aspect-[3/2] flex-shrink-0 rounded-xl overflow-hidden glass-panel border p-1 shadow-sm bg-white order-1 md:order-2">
-                     <img src={pub.image} alt={pub.title} className="w-full h-full object-cover rounded-lg" />
+                     <img src={pub.image} alt={pub.title} className="w-full h-full object-cover rounded-lg" loading="lazy" />
                   </div>
                 )}
               </div>
@@ -479,7 +479,7 @@ export default function App() {
             >
               <div className="w-full relative bg-slate-100 rounded-[0.85rem] overflow-hidden aspect-[4/3]">
                 {proj.image ? (
-                  <img src={proj.image} alt={proj.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                  <img src={proj.image} alt={proj.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 ) : (
                   <div className="w-full h-full bg-slate-100" />
                 )}
